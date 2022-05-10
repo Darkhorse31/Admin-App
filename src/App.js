@@ -1,8 +1,11 @@
 import React from "react";
-import ToolBar from "./components/ToolBar";
+import Topbar from "./components/ToolBar";
+
 
 const App = () => {
-  return <div><ToolBar/></div>;
+  return <div className="App">
+    <Topbar/>
+  </div>;
 };
 
 export default App;
